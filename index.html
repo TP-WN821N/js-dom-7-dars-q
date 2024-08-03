@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <h1>Task 1</h1>
+    <form id="form1">
+      <input name="width" required type="number" placeholder="Width">
+      <input name="height" required type="number" placeholder="Height">
+      <input name="radius" required type="number" placeholder="Radius">
+      <input name="color" required type="text" placeholder="Color">
+      <button type="submit">Button</button>
+    </form>
+    <div class="container">
+      <div id="box1"></div>
+    </div>
+  </div>
+  <div class="margin task_two">
+    <h1>Task 2</h1>
+    <form id="form2">
+      <textarea required name="textarea_two"></textarea>
+      <button type="submit">Button</button>
+      <p class="result2">
+
+      </p>
+    </form>
+  </div>
+  <div class="margin">
+    <div class="margin task_three">
+      <h1>Task 3</h1>
+      <form id="form3">
+        <textarea name="textarea_three"></textarea>
+        <input type="text" placeholder="strItem" name="strItem">
+        <button type="submit">Button</button>
+        <p class="result3"></p>
+      </form>
+    </div>
+  </div>
+  <div class="margin">
+    <h1>Task 4</h1>
+    <form id="form4">
+      <input id="file" type="file" onchange="inputFile()" placeholder="File">
+      <button type="submit">Button</button>
+      <p class="result4"></p>
+    </form>
+  </div>
+  <div class="margin">
+    <h1>Task 5</h1>
+    <input type="text" placeholder="Text" onchange="taskFive(event)">
+    <p class="result5"></p>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
